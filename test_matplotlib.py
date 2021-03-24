@@ -4,7 +4,6 @@ from sklearn.model_selection import train_test_split
 import pandas as pd
 import graphviz
 from matplotlib import pyplot as plt
-import time
 
 
 # 导入数据，分训练测试集
@@ -24,4 +23,3 @@ print(score_list)
 plt.plot(range(1, 11), score_list, label='max_depth', color='blue')
 plt.legend()
 plt.show()
-time.sleep(1000)
