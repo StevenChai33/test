@@ -58,3 +58,10 @@ SELECT user_id FROM visit
 <font color=#0099ff, size=4, face="仿宋">我是绿色仿宋</font>
 
 一般用到这个模块是用颜色高亮<font color="red">强调</font>某个字词
+
+#### 数学公式测试
+行内公式一对美元号： $a^2+b^2=c^2$
+
+行间公式两对美元号：
+$$f(x)=f(0)+f'(0)x+\frac{f''(0)}{2}x^2+\cdots$$ 
+
