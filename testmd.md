@@ -49,3 +49,12 @@ SELECT user_id FROM visit
 #### 链接
 ##### 超链接
 格式为：方括号链接名后跟圆括号链接地址：[我的GitHub主页](https://github.com/StevenChai33/)
+##### 普通链接
+普通链接用尖括号表示：<https://github.com/StevenChai33/>
+
+#### 字体，颜色，大小
+用尖括号font设置参数：先color再size最后face顺序不能改
+
+<font color=#0099ff, size=4, face="仿宋">我是绿色仿宋</font>
+
+一般用到这个模块是用颜色高亮<font color="red">强调</font>某个字词
